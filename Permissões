@@ -1,0 +1,59 @@
+Exemplo : 9111555888 
+Exemplo :  name group tamanho mes dia hora:minuto arquivo 
+ 
+111 -> premissoes da pessoa
+555 -> permissoes do grupo
+888 -> permissoes dos outros
+
+3 -> quantidade de diretos dentro da pasta
+w -> gravacao de arquivos
+x -> execucao de arquivos
+r -> leitura de arquivos 
+u -> o dono do arquivo
+g -> grupo do arquivo , dono
+9 = d  -> se aparecer eu mesmo sou o dono 
+
+
+comando pra trocar as permissoes do arquivo diretorio 
+
+chmod {mode} {file-name}
+mode ->  permissao octagonais 
+file-name -> nome do arquivo , pasta , diretorio
+sem os "{,}"
+
+Permissoes octagonais
+r + w + x: 7
+r + w: 6
+r + x: 5
+r: 4
+x + w : 3
+w: 2
+x: 1
+0 : 0
+
+Permissões Padrões
+Usuario = r+w+x = 0+4+2+1 = 7
+Grupo = r+w+x = 0+4+2+0 = 6
+Outros = r+w+x = 0+0+0+1 = 1
+
+permissao total
+0+r+w+x = 0+4+2+1 = 7    
+
+apenas ler e escrever
+0+r+w+x = 0+4+2+0 = 6
+
+apenas ler e executar
+0+r+w+x = 0+4+0+1 = 5
+
+comandos 
+
+no diretorio
+r ->  me premite executar 1 comando no diretorio ( ls )
+w -> me permite executar 3 comandos no diretorio ( cp , mvt , touch )
+nos arquivos
+r -> me premite executar 2 comandos no diretorio  ( cat , tail )
+w -> me permite executar 2 comandos no diretorio ( vim, > )
+
+
+
+
