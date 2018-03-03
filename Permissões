@@ -5,7 +5,7 @@ Exemplo :  name group tamanho mes dia hora:minuto arquivo
 555 -> permissoes do grupo
 888 -> permissoes dos outros
 
-3 -> quantidade de diretos dentro da pasta
+3 -> quantidade de pastas(diretorios) dentro da pasta
 w -> gravacao de arquivos
 x -> execucao de arquivos
 r -> leitura de arquivos 
